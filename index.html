@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="Content-Security-Policy" -->
+        <!-- content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fourth.css">
+    <link rel="stylesheet" href="css/fa/css/all.css">
+    <title>Hello World</title>
+</head>
+
+<body>
+    <!-- first screen -->
+    <div class="first-screen" id="first-screen">
+       <img src="img/logo.jpg" />
+   </div>
+
+   <!-- second screen -->
+   <div class="second-screen" id="second-screen">
+       <div class="craving to-center">
+           <p><i style="font-family: cursive;">You</i> Cravingaa...</p>
+           <p><i style="font-family: cursive;">We</i> Bringaa...</p>
+       </div>
+       <div class="welb to-center">
+           <p>Welcome <b>BAKER</b></p>
+       </div>
+       <div class="sending">
+           <form id="myform">
+               <input type="numeric" placeholder="Mobile no."/>
+               <i class="fa fa-user" id="user"></i></a></li>
+               <input type="submit" readonly value="SEND OTP">
+           </form>
+       </div>
+       <div class="logo to-bottom" id="logo">
+           <img src="img/logo1.png" />
+       </div>
+
+   </div>
+   <!-- third screen -->
+   <div class="third-screen to-center" id="third-screen">
+       <div class="verify-otp to-center">
+           <form id="verify-form">
+               <input type="numeric" style="width:120%;"/>
+               <input type="submit" value="verify" style="width:120%;">
+           </form>
+       </div>
+       <div class="to-bottom" id="logo1">
+           <img src="img/logo.jpg" />
+       </div>  
+   </div>
+   <!-- fourth screen -->
+   <div class="fourth-screen" id="fourth-screen">
+       <nav class="fourth-first">
+           <ul class="menu" > 
+               <li><a href="javascript:void(0)" class="active" onclick=openNav()><i class="fas fa-bars"></i></a>
+               </li>
+               <li><a href="">DAY Orders</a></li>
+               <li><a href=""><i class="fa fa-bell"></i></a></li>
+           </ul>
+       </nav> 
+       <div class="sidenav" id="sidenav">
+           <div class="sidenavshape">
+               <ul class="sub-menu">
+                   <li> <a href="javascript:void(0)" onclick="closeNav()"class="closebtn"><i class="fas fa-times"></i> </a> </li>
+                   <li><a href="">DAY ORDER'S</a></li>
+                   <li><a href="fifth.html" id="inventry">INVENTARY REQUIREMENT</a></li>
+                   <li><a href="sixth.html">YOUR PROFILE</a></li>
+               </ul>
+           </div> 
+       </div>
+       <div class="fourth-second"> 
+       </div>
+       <div class="fourth-third">
+           <div class="box" id="box-1">1</div>
+           <div class="box" id="box-2">2</div>
+           <div class="box" id="box-3">3</div>       
+       </div>
+       <div class="fourth-fourth">
+           <div class="timeslot">
+               <label for="time"><h2 style="text-align:left;">Time slot</h2></label>
+               <select name="time" id="time">
+                 <option >5AM-6AM</option>
+                 <option >5AM-6AM</option>
+                 <option >5AM-6AM</option>
+                 <option >5AM-6AM</option>
+               </select>
+           </div>
+       </div>
+      <div class="fourth-fifth">
+          <div class="cakenum">
+               <div class="clearfix">
+                   <p> <img src="img/cake.jpg"  style="float:right;border: 2px solid black;height:20%;width:50%;border-radius: 20px;">
+                  Your text goes here.<br>
+                  Order no.: <br>
+                  Quantity:
+               </p>
+               </div>
+               <div>
+                   <form style="padding-left:3%;padding-right: 3%;">
+                       <H4>Message</H4>
+                        <textarea rows="3" cols="40" name="address" id="address"></textarea>
+                    </form>
+               </div>
+               <div class="timer">
+                   
+                  <h2>time <span style="background-color: #ee2b2b;color:#ee2b2b;border-radius: 7px;">timertimer</span> out</h2>
+                  
+               </div>
+               <div class="packed">
+                   <form action="">
+                       <button type="submit"><h1>Baked & Packed</h1></button>
+                   </form>
+               </div>
+          </div>
+      </div>
+   </div>
+   <script src="cordova.js"></script>
+   <script src="js/index.js"></script>
+</body>
+
+
+</html>
